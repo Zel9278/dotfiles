@@ -18,3 +18,5 @@ for f in $entries; do
 	ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
 
+echo Changing shell to zsh...
+chsh -s $(which zsh)
