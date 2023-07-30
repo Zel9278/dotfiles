@@ -28,8 +28,8 @@ _lazy; zinit load zdharma-continuum/history-search-multi-word
 
        zinit snippet OMZP::git
        zinit snippet OMZP::history
-       zinit snippet ~/.dotfiles/af-magic-modified.zsh-theme
-
+       #zinit snippet ~/.dotfiles/af-magic-modified.zsh-theme
+	zinit ice depth=1; zinit light romkatv/powerlevel10k
 unalias _lazy
 
 bindkey "^R" history-search-multi-word
