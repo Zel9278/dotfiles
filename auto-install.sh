@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://github.com/HiraginoYuki/dotfiles ~/.dotfiles
+git clone https://github.com/Zel9278/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ./install.sh
 echo "Type 'exec zsh' to reload your shell and have fun!"
