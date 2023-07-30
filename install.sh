@@ -7,6 +7,7 @@ entries="\
 	.tmux.conf \
 	.config/nvim \
   .cargo/config.toml \
+  .p10k.zsh \
 "
 
 for f in $entries; do
