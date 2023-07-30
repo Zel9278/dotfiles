@@ -18,5 +18,9 @@ for f in $entries; do
 	ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
 
+echo "Type 'exec zsh' to reload your shell and have fun!"
+echo "Note: 'source .zshrc' is deprecated. for more info, visit:"
+echo "https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html"
+
 echo Changing shell to zsh...
 chsh -s $(which zsh)
