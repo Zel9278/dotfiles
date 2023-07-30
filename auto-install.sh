@@ -11,4 +11,4 @@ echo "Type 'exec zsh' to reload your shell and have fun!"
 echo "Note: 'source .zshrc' is deprecated. for more info, visit:"
 echo "https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html"
 
-echo "Please after install, run 'chsh -s $(which zsh)' to change your default shell to zsh."
+echo "Please after install, run 'chsh -s /bin/zsh' to change your default shell to zsh."
