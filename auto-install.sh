@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "This is a fork of HiraginoYuki's dotfiles."
 echo "Original: https://github.com/HiraginoYuki/dotfiles"
 
